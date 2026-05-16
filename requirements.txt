@@ -1,0 +1,5 @@
+apache-airflow
+pandas
+scikit-learn
+joblib
+graphviz

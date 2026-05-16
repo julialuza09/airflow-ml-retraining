@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.venv/
+
+# Airflow
+airflow.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+simple_auth_manager_passwords.json.generated
+
+# Airflow logs
+logs/
+
+# Airflow PID files
+*.pid
+
+# Airflow generated folders
+.astro/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files
+models/archive/*.pkl
+models/production/*.pkl
+
+# Metrics files
+models/archive/*.json
+models/production/*.json
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
